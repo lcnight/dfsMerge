@@ -16,7 +16,8 @@ current, this tool support bzip2/gzip/lzo/deflate compression type, and the comp
 type can be set by -t option
 
 
-example: 
+example:
+
     # push two files to hdfs
     hadoop jar dfsMerge.jar dfsMerge -m log1,log3 -f log2,log4 -v
 
@@ -27,6 +28,7 @@ HOW:
     you may think how to use this tool? the tool provide only to merge file(s) to hdfs base on
 api 1.0.1, when you want to merge or push your file(s) into hdfs, you can wrap the tool in you
 shell script or something similar. 
+
     keep in mind that the merge logic is very simple :)
 
 contact info:
